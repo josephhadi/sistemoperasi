@@ -1,0 +1,22 @@
+@echo off
+title BERHITUNG MATEMATIKA
+echo ----------------------------------------
+echo NIM                : 20122062
+echo Nama               : Joseph hadi
+echo Kelas              : TI 2 B
+echo Jurusan            : INFORMATIKA
+echo ----------------------------------------
+echo BERHITUNG MATEMATIKA
+echo ----------------------------------------
+echo 1. (2x4) (5+7) = ?
+set /a result=(2*4)*(5+7)
+echo Hasil: %result%
+
+echo 2. (30/5)+(35*4) = ?
+set /a result=(30/5)+(35*4)
+echo Hasil: %result%
+
+echo 3. 100-(35+10)*4 = ?
+set /a result=100-(35+10)*4
+echo Hasil: %result%
+pause
